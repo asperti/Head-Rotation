@@ -1,6 +1,10 @@
 # Head-Rotation
 This is a companion repository to the article "Head Rotation in Denoising Diffusion Models", joint work with Gabriele Colasuonno and Antonio Guerra.
 
+<p align="center">
+  <img src="img120002_7.png" width="900" title="head rotation">
+</p>
+
 <hr>
 Denoising Diffusion Models (DDM) are currently at the forefront of cutting-edge technology in deep generative modeling. However, effectively exploring the underlying meaning in the latent space and identifying compelling paths for manipulating and editing important attributes of generated samples remains a challenge, mainly due to the high dimensionality of the latent space.
 
