@@ -56,7 +56,7 @@ Instead, it looks important to select images having at least a rough similarity
 with the source image we want to act on. A particularly important information is the illumination direction, that is an attribute not available for CelebA. 
 We addressed this lack producing our own labeling; specifically, we categorized CelebA images into three major groups based on their main source of illumination: left, center, and right. The labeling process was carried out in a semi-supervised manner with the collaboration of many students. 
 
-In the picure below, we summarise the outcome of our labeling and the complex interplay between illumination and orientation by showing the mean faces corresponding to different light sources and poses.
+In the picture below, we summarise the outcome of our labeling and the complex interplay between illumination and orientation by showing the mean faces corresponding to different light sources and poses.
 <p align="center">
   <img src="mean_faces.jpeg" width="500" title="head rotation">
 </p>
