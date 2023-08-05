@@ -66,6 +66,6 @@ the complex interplay between illumination and pose.
 <hr>
 
 <p align="center">
-  <img src="img200145_7.png" width="900" title="head rotation">
+  <img src="img120118_7.png" width="900" title="head rotation">
 </p>
 
