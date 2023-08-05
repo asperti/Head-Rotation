@@ -58,5 +58,14 @@ We addressed this lack producing our own labeling; specifically, we categorized 
 
 In the picure below, we summarise the outcome of our labeling and the complex interplay between illumination and orientation by showing the mean faces corresponding to different light sources and poses.
 <p align="center">
+  <img src="mean_faces.jpeg" width="500" title="head rotation">
+</p>
+The different provenance of the light is still clearly recognizable in the centroids, implicitly testifying the quality of our labeling. Note also
+the complex interplay between illumination and pose.
+
+<hr>
+
+<p align="center">
   <img src="img200145_7.png" width="900" title="head rotation">
 </p>
+
