@@ -15,3 +15,9 @@ Our methodology involves computing trajectories that approximate clusters of lat
 One of these critical attributes is the light provenance: as a byproduct of our research, we have labeled the CelebA dataset, categorizing images into three major groups based on the illumination direction: left, center, and right.
 
 <hr>
+
+<p align="center">
+  <img src="img120122_7.png" width="900" title="head rotation">
+</p>
+
+<h2>Methodology</h2>
