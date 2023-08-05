@@ -42,3 +42,7 @@ giving a direction corresponding to the rotation. Finally, we move along the
 computed direction starting form the specific point corresponding to the embedding of the source image (d). Of course, latent points are then projected into the visible domain using the generator.
 
 We prefer to compute centroids instead of directly fitting over all clusters for computational reasons. 
+
+<p align="center">
+  <img src="img200145_7.png" width="900" title="head rotation">
+</p>
