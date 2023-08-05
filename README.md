@@ -14,10 +14,31 @@ Our methodology involves computing trajectories that approximate clusters of lat
 
 One of these critical attributes is the light provenance: as a byproduct of our research, we have labeled the CelebA dataset, categorizing images into three major groups based on the illumination direction: left, center, and right.
 
-<hr>
 
 <p align="center">
   <img src="img120122_7.png" width="900" title="head rotation">
 </p>
 
 <h2>Methodology</h2>
+The problem consists in finding trajectories in the latent spaces corresponding to left/right rotations of the head. We restricted the analysis to linear trajectories, however, a single direction does not seem to correctly approximate large rotations, and we split the problem along two main directions, one for the right rotation and another one for the left rotation. 
+
+For a fixed direction (left or right), the approach is schematically described in the following picture
+
+<p align="center">
+  <table>
+    <tr>
+      <td>(a)<img src="image1.png" width="200" title="phase1"></td>
+      <td>(b)<img src="imag2.png" width="200" title="phase2"></td>
+      <td>(c)<img src="image3.png" width="200" title="phase3"></td>
+      <td>(d)<img src="image4.png" width="200" title="phase4"></td>
+    </tr>
+  </table>
+</p>
+
+Given a rotation yaw angle $\Theta$, we retrieve from the dataset a large number of images with a yaw close to $\Theta$; the precise way this set is selected will be discused below. This set is then embedded into the latent space, producing the 
+cluster of points emphasized in picture (a). Next (b), we repeat this operation with increasing angles $\Theta_1, \dots \Theta_n$ and compute the centroids of
+the corresponding clusters. We then fit by linear regression a line though the centroids (c), 
+giving a direction corresponding to the rotation. Finally, we move along the
+computed direction starting form the specific point corresponding to the embedding of the source image (d). Of course, latent points are then projected into the visible domain using the generator.
+
+We prefer to compute centroids instead of directly fitting over all clusters for computational reasons. 
