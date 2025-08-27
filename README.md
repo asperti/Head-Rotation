@@ -1,3 +1,8 @@
+---
+paper: https://www.mdpi.com/2079-9292/13/15/3091
+repository: https://github.com/asperti/Head-Rotation/
+---
+
 # Head-Rotation
 This is a companion repository to the article "Head Rotation in Denoising Diffusion Models", joint work with Gabriele Colasuonno and Antonio Guerra.
 
